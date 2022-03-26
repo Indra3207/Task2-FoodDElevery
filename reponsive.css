@@ -1,0 +1,83 @@
+#navbar {
+    flex-direction: column;
+    height: 88px;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    font-size: 13px;
+}
+
+#navbar ul {
+    padding: 2px;
+}
+
+#logo {
+    margin: -8px 0px;
+}
+
+#logo img {
+    margin: 7px 10px;
+    height: 59px;
+}
+
+#home {
+    /* height: 330px; */
+    flex-direction: column;
+    /* width: 100px; */
+    height: 550px;
+    padding: 5px 35px;
+    margin: 0px -4px;
+}
+
+#home .h-primary {
+    font-size: 25px;
+    padding: 3px;
+}
+
+#home p {
+    font-size: 10px;
+}
+
+#home::before {
+    height: 792px;
+    width: 415px;
+    padding: 0px 0px;
+}
+
+#home .btn {
+    padding: 1px 29px;
+    margin: 15px;
+    font-size: 10px;
+}
+
+.services {
+    flex-direction: column;
+}
+
+.box {
+    margin: 7px -96px;
+    padding: 6px 20px;
+}
+
+#services-continer {
+    margin: 110px;
+}
+
+#services-continer .kittu {
+    font-size: 24px;
+    padding: 15px;
+}
+
+#clients {
+    /* overflow: hidden; */
+    flex-wrap: wrap;
+}
+
+#clients .clients-item img {
+    height: 60px;
+}
+
+#contactbox form {
+    width: 85%;
+}
